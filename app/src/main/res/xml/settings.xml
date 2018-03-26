@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:entries="@array/colour"
+        android:entryValues="@array/colour_values"
+        android:key="todo_color"
+        android:summary="@string/setting_color"
+        android:title="Shape Color" />
+</PreferenceScreen>
