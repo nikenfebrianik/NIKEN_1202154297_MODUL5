@@ -12,12 +12,15 @@ import android.widget.TextView;
  */
 
 public class TodoAdapter extends RecyclerView.Adapter<TodoAdapter.TodoViewHolder> {
+
+    //deklarasi variable
     private LayoutInflater mInflater;
     TodoDbHandler mDB;
     Context mContext;
 
     TodoViewHolder holder;
 
+    //constructor
     public TodoAdapter(Context context, TodoDbHandler mDB) {
         mInflater = LayoutInflater.from(context);
         mContext = context;

@@ -5,6 +5,7 @@ package id.showup.niken.niken_1202154297_modul5;
  */
 
 public class Todo {
+    //super class
     private int mId;
     private String name;
     private String desc;
@@ -13,6 +14,7 @@ public class Todo {
     public Todo() {
     }
 
+    //set get semua variable yg akan digunakan oleh anak-anaknya
     public int getmId() {
         return mId;
     }

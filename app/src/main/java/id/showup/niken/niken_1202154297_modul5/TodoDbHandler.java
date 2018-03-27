@@ -15,6 +15,7 @@ import android.util.Log;
 public class TodoDbHandler extends SQLiteOpenHelper {
     private static final String TAG = TodoDbHandler.class.getSimpleName();
 
+    //deklarasi variable yang akan digunakan seperti nama db, table, field-field
     private static final int DATABASE_VERSION = 1;
     private static final String DATABASE_NAME = "TodoList";
     private static final String TABLE_TODO = "tbl_todo";
@@ -26,6 +27,7 @@ public class TodoDbHandler extends SQLiteOpenHelper {
     private SQLiteDatabase mWritableDB;
     private SQLiteDatabase mReadableDB;
 
+    //constructor
     public TodoDbHandler(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
